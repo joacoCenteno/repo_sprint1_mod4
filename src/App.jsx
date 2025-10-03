@@ -1,18 +1,13 @@
 import React from 'react'
 import MotionComponent from './components/MotionComponent'
-import NavBar from './components/NavBar'
-import Header from './components/Header'
-
+import Layout from './components/Layout'
 
 const App = () => {
 
 
   return (
     <>
-    <div className='font-display'>
-          <NavBar/>
-          <Header/>
-    </div>
+        <Layout/>
     </>
   )
 }
